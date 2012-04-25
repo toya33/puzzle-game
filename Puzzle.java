@@ -17,7 +17,7 @@ public class Puzzle extends Applet {
 		OffScreen = OffImage.getGraphics();
 		
 		for(int i = 0;i<16;i++){
-			panel[i] = getImage(getDocumentBase(),i+".jpg");
+			panel[i] = getImage(getDocumentBase(),"Image/"+i+".jpg");
 		}
 		
 	}
